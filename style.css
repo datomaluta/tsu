@@ -10,15 +10,183 @@ body {
   background-color: #f2f2f2;
 }
 
-@media (max-width: 600px) {
-}
-
 section {
   margin-bottom: 40px;
 }
 
-/* ვირტუალური ტურის სტილები */
+/* თორნიკეს სტილები */
+.img-news {
+  position: relative;
+}
 
+.img-news div {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  height: 30%;
+  background-color: rgba(25, 22, 173, 0.7);
+  display: flex;
+  align-items: center;
+}
+
+.img-news div h3 {
+  margin-left: 5%;
+  width: 60%;
+  color: white;
+}
+
+.img-news div span {
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.img-news img {
+  width: 100%;
+}
+
+/* საგანმანათლებლო პროგრამები */
+
+.saganmanatleblo {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.saganmanatleblo img {
+  width: 100%;
+}
+
+.saganmanatleblo h3 {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+}
+
+.saganmanatleblo form {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: rgba(48, 51, 51, 0.507);
+}
+
+.saganmanatleblo form div {
+  padding: 10px;
+  background-color: white;
+  border-radius: 100px;
+  display: flex;
+  gap: 15px;
+}
+
+.saganmanatleblo form button {
+  width: 100%;
+  border-radius: 100px;
+  background-color: rgb(255, 102, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 50px;
+  color: white;
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.saganmanatleblo form div input {
+  border: none;
+}
+
+.shadow {
+  --tw-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.16);
+  --tw-shadow-colored: 1px 1px 5px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+/* ფაკულტეტები */
+
+.faculty-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.faculty-list div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+  padding-bottom: 20px;
+}
+
+.faculty-list div img {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+/* სიახლეები */
+
+.news {
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 1rem;
+}
+
+.news h3 {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  width: 100%;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+.news div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  padding-bottom: 20px;
+}
+
+.news div h4 {
+  width: 100%;
+  text-align: center;
+}
+
+.news div img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.news div span {
+  color: rgb(128, 128, 128);
+}
+
+.news button {
+  background-color: inherit;
+  font-weight: 600;
+  border: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  align-self: self-start;
+}
+
+/* ჩემი სტილები */
+
+/* ვირტუალური ტურის სტილები */
 .image-container {
   position: relative;
   height: 200px;
